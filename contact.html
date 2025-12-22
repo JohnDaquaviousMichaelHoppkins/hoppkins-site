@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hoppkins</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #container {
+                width: calc(100vw-4px);
+            }
+            #header {
+                text-align: center;
+            }
+            #group {
+                width: calc(100vw-4px);
+            }
+            #contact-cont {
+                justify-self: center;
+                display: grid;
+                width: 97vw;
+                grid-template-columns: repeat(auto-fit, minmax(290px, 6fr));
+                column-gap: 30px;
+                text-align: center;
+                align-items: center;
+            }
+            .grid-items {
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 100%;
+            }
+            #activity-meter {
+                height: 280.44px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="logo">
+            <a id="title" href="index.html">hoppkins.</a>
+            <nav>
+                <button class="nav-buttons" id="contact-nav-button" onclick="window.location.href = 'contact.html'">Contact</a>
+                <button class="nav-buttons" id="about-nav-button" onclick="window.location.href = 'about.html'">About</a>
+            </nav>
+        </div>
+        <div id="container">
+            <div id="group">
+                <div id="header">
+                    <h1>contact me</h1>
+                    <p>Underneath you can find where you can contact me. (Note that this part of the site sometimes breaks on mobile)</p>
+                </div>
+                <div id="contact-cont">
+                    <div id="slack-content" class="grid-items">
+                        <h1>Slack</h1>
+                        <h3>User: z1.</h3>
+                        <p>My Hack Club Slack account, <br>I am semi active on it.</p>
+                    </div>
+                    <div id="xmpp-content" class="grid-items">
+                        <h1>XMPP</h1>
+                        <h3>User: N/A</h3>
+                        <p>Soon :)</p>
+                    </div>
+                    <div id="email-content" class="grid-items">
+                        <h1>E-Mail</h1>
+                        <h3>Addr.: johnmichaelhoppkins@gmail.com</h3>
+                        <p>do young people still use email in the big 25?</p>
+                        <a href="mailto:johnmichaelhoppkins@gmail.com" style="font-weight: bold; font-style: italic; text-decoration: underline;">you can also click me to send me an email.</a>
+                    </div>
+                    <div id="discord-content" class="grid-items">
+                        <h1>Discord</h1>
+                        <h3>User: johnhoppkins</h3>
+                        <p>I am mostly active, you may need me to accept your request though.</p>
+                    </div>
+                    <div id="signal-content" class="grid-items">
+                        <h1>Signal</h1>
+                        <h3>User: N/A</h3>
+                        <p>Soon :)</p>
+                    </div>
+                    <div id="matrix-content" class="grid-items">
+                        <h1>Matrix</h1>
+                        <h3>Display: hoppkins</h3>
+                        <h3>Nameserver: hoppkins.freedombox.rocks</h3>
+                        <p>My own hosted server, down for maintenance rn.</p>
+                    </div>
+                </div>
+                <h2 style="text-align: center;">i am human, i dont respond in femtoseconds. be patient if i dont respond.</h2>
+                <div id="activity-meter" style="text-align: center; transform: translateY(70px);">
+                    <h1>My activity per platform</h1>
+                    <p><b>Slack: </b>Sometimes online.</p>
+                    <b>XMPP: </b>N/A</p>
+                    <b>E-Mail: </b>I barely check my email, I will start checking it if I go mainstream.</p>
+                    <b>Discord: </b>Active daily.</p>
+                    <b>Signal: </b>N/A</p>
+                    <b>Matrix: </b>Meh.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Made by John Daquavious Michael Hoppkins, for Swirl</p>
+        </footer>
+    </body>
+</html>

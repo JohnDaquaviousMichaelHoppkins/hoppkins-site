@@ -1,0 +1,68 @@
+@font-face {
+    font-family: inter;
+    src: url('fonts/Inter/inter.ttf');
+}
+html {
+    background-color: black;
+    color: greenyellow;
+    font-family: inter;
+}
+#logo {
+    border-bottom-style: solid;
+    border-bottom-color: greenyellow;
+    border-bottom-width: 3px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+#title {
+    display: inline-block;
+    font-size: 32px;
+    color: greenyellow;
+    font-weight: bold;
+    height: 39px;
+    margin-top: 21.440px;
+    margin-bottom: 21.440px;
+}
+nav {
+    display: block;
+    float: right;
+}
+.nav-buttons {
+    background-color: black;
+    color: greenyellow;
+    font-family: inter;
+    font-weight: bold;
+    border-style: none;
+    height: 90px;
+    width: 100px;
+    transform: translateY(-8px);
+    transition: color 0.35s ease, background-color 0.35s ease;
+}
+.nav-buttons:hover {
+    color: black;
+    background-color: greenyellow;
+}
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: calc(100vh - 150px);
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+}
+footer {
+    display: block;
+    transform: translateY(15.12px);
+    text-align: center;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+footer > p {
+    font-size: 10px;
+}
