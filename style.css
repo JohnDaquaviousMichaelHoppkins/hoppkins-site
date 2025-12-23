@@ -62,9 +62,9 @@ footer {
     margin: 0;
     display: grid;
     grid-template-rows: 1fr auto;
-    position: fixed;
 }
 footer > p {
     font-size: 10px;
 
 }
+
